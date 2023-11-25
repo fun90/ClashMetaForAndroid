@@ -1,4 +1,4 @@
-[submodule "clash-rev"]
+[submodule "core/src/rev/golang/clash"]
 	path = core/src/rev/golang/clash
 	url = https://github.com/fun90/clash-rev
 	branch = main
