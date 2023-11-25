@@ -1,4 +1,4 @@
-[submodule "clash-foss"]
-	path = core/src/foss/golang/clash
-	url = https://github.com/MerlinKodo/clash-rev
+[submodule "clash-rev"]
+	path = core/src/rev/golang/clash
+	url = https://github.com/fun90/clash-rev
 	branch = main

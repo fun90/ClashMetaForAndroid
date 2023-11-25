@@ -101,10 +101,10 @@ subprojects {
 
         sourceSets {
             getByName("meta") {
-                java.srcDirs("src/foss/java")
+                java.srcDirs("src/rev/java")
             }
             getByName("meta-alpha") {
-                java.srcDirs("src/foss/java")
+                java.srcDirs("src/rev/java")
             }
         }
 

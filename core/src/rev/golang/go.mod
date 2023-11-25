@@ -1,4 +1,4 @@
-module foss
+module rev
 
 go 1.20
 

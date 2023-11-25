@@ -12,7 +12,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/Dreamacro/clash => ../../foss/golang/clash
+replace github.com/Dreamacro/clash => ../../rev/golang/clash
 
 replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20231001053806-1230641572b9
 

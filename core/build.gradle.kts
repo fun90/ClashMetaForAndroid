@@ -20,12 +20,12 @@ val golangSource = file("src/main/golang/native")
 golang {
     sourceSets {
         create("meta-alpha") {
-            tags.set(listOf("foss","with_gvisor"))
-            srcDir.set(file("src/foss/golang"))
+            tags.set(listOf("rev","with_gvisor"))
+            srcDir.set(file("src/rev/golang"))
         }
         create("meta") {
-            tags.set(listOf("foss","with_gvisor"))
-            srcDir.set(file("src/foss/golang"))
+            tags.set(listOf("rev","with_gvisor"))
+            srcDir.set(file("src/rev/golang"))
         }
         all {
             fileName.set("libclash.so")
